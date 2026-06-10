@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+h1 {
+    color: #1f2937;
+}
+
+h2 {
+    color: #1f2937;
+}
+
+p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.certifications {
+    margin: 20px 0;
+}
+
+.badge {
+    display: inline-block;
+    background: #eef4ff;
+    color: #0f2e84;
+    padding: 10px 16px;
+    margin: 6px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:12px 24px;
+    background: #0f2e84;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background: #0f2e84;
+    transform:translateY(-2px);
+}
+
+.buttons{
+    margin-top: 25px;
+}
+
+.buttons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
